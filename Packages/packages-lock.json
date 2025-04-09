@@ -162,7 +162,7 @@
       "url": "https://packages.unity.com"
     },
     "uk.lunalabs.luna": {
-      "version": "file:D:/Luna/PA/scripts",
+      "version": "file:../../../Luna/PA/scripts",
       "depth": 0,
       "source": "local",
       "dependencies": {}

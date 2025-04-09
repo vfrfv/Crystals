@@ -1,0 +1,73 @@
+{
+  "ignores": [],
+  "groups": [
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXButtonScript.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXFireProjectile.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXProjectileScript.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXEffectController.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXMouseOrbit.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXEffectControllerPooled.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXEffectCycler.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXLoopScript.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXSceneManager.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/ETFXTarget.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/VFX Library/ParticleEffectsLibrary.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/VFX Library/UICanvasManager.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Demo/Scripts/VFX Library/PEButtonScript.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Scripts/ETFXLightFade.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Scripts/ETFXPitchRandomizer.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Epic Toon FX/Scripts/ETFXRotation.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Joystick Pack/Examples/JoystickPlayerExample.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Joystick Pack/Examples/JoystickSetterExample.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Joystick Pack/Scripts/Base/Joystick.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Accets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Character/CharacterMove.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Character/CharacterAnimator.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Character/CharacterUpgrade.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Character/Character.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Shop/Shop.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/SpawnerCrystals.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Crystal/Crystal.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Character/Inventory/Inventory.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/UI/UIControl.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Edge.cs",
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Workshop/Workshop.cs"
+    ],
+    [
+      "D:/UnityPri/Crystals/LunaTemp/stage3/processed-scripts/Assets/Scripts/Camera/CameraFollow.cs"
+    ],
+    [
+      "D:/Luna/PA/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "D:/Luna/PA/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "D:/Luna/PA/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}
