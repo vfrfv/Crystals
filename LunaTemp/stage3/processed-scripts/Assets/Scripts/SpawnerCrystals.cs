@@ -9,6 +9,8 @@ public class SpawnerCrystals : MonoBehaviour
     [SerializeField] private float _spawnInterval = 1f;
 
     private bool _isSpawning = true;
+    private int _maxCrysralsSpawn = 30;
+    private int _currentCountCrystals = 0;
 
     private void Start()
     {
@@ -22,11 +24,15 @@ public class SpawnerCrystals : MonoBehaviour
 
     private IEnumerator SpawnCrystalsRoutine()
     {
-        while (_isSpawning)
+        while (_isSpawning && _currentCountCrystals < _maxCrysralsSpawn)
         {
             SpawnCrystal();
+            _currentCountCrystals++;
+
             yield return new WaitForSeconds(_spawnInterval);
         }
+
+        _isSpawning = false;
     }
 
     private void SpawnCrystal()

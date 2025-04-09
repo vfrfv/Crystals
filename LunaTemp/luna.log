@@ -1,36 +1,38 @@
-report@config:load 9.33
-Found a stored user info, but it is no longer valid.
-Permissions were validated successfully.
-report@account:authorize 1591.33
-Exporting assets from Unity.................
+report@config:load 263.21
+Authorized using stored user info.
+report@account:authorize 19.04
+stderr: "rm" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+
+Exporting assets from Unity...........
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-report@unity:export 14142.92
-report@config:load 11.37
+report@unity:export 8167.69
+report@config:load 66.71
 [ error ] $Failed to locate TTF file for the font named LegacyRuntime – falling back to Arial substitute.
 Using C:/Windows/Fonts/arial.ttf file to generate an atlas for LegacyRuntime[478] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
 Combined 97 glyphs into bitmap texture at D:/UnityPri/Crystals/LunaTemp/stage1/tmp/fonts/LegacyRuntime-478/output_0.png (59kb)
 Resources:
 {}
-report@assets:stage2 16882.30
-report@assets:stage3 613.40
+report@assets:stage2 10386.49
+report@assets:stage3 791.04
 [ Stage2 ] Assets postprocessed and bundled successfully
-report@config:unity 0.64
-report@config:load 6.52
-report@config:unity 0.86
-report@code:compose 891.03
+report@config:unity 0.74
+report@config:load 87.55
+report@config:unity 0.27
+report@code:compose 795.38
 Authorized using stored user info.
-report@account:authorize 11.98
+report@account:authorize 8.75
 Версия MSBuild 17.11.9+a69bbaaf5 для .NET Framework
 
-Сборка начата 09.04.2025 18:46:55.
+Сборка начата 09.04.2025 20:34:47.
 
 
 
 Проект "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" в узле 1 (целевые объекты Rebuild).
-CoreClean:
 
+CoreClean:
   Файл "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll" удаляется.
 
   Файл "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb" удаляется.
@@ -75,8 +77,6 @@ CoreClean:
 
   Файл "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml" удаляется.
 
-  Файл "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll" удаляется.
-
   Файл "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll" удаляется.
 
   Файл "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache" удаляется.
@@ -93,77 +93,79 @@ GenerateTargetFrameworkMonikerAttribute:
 Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
 
 CoreCompile:
-  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_7 /highentropyva+ /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXEffectController.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXEffectControllerPooled.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXEffectCycler.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Scripts\ETFXLightFade.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Scripts\ETFXRotation.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Examples\JoystickPlayerExample.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Examples\JoystickSetterExample.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Base\Joystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Camera\CameraFollow.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Inventory\Inventory.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Crystal\Crystal.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Edge.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Workshop\Workshop.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_7 /highentropyva+ /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXEffectController.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXEffectControllerPooled.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXEffectCycler.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\VFX Library\ParticleEffectsLibrary.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\VFX Library\PEButtonScript.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Demo\Scripts\VFX Library\UICanvasManager.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Scripts\ETFXLightFade.cs" "D:\UnityPri\Crystals\LunaTemp\sta
+ge3\processed-scripts\Assets\Accets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Epic Toon FX\Scripts\ETFXRotation.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Examples\JoystickPlayerExample.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Examples\JoystickSetterExample.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Base\Joystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" "D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Accets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Camera\CameraFollow.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Inventory\Inventory.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Crystal\Crystal.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Edge.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Workshop\Workshop.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
 
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(7,48): warning CS0649: Полю "CharacterMove._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs(9,46): warning CS0649: Полю "Shop._spawnerCrystals" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs(9,39): warning CS0649: Полю "CharacterAnimator._animatorCharacter2" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(7,47): warning CS0649: Полю "Character._characterUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs(7,40): warning CS0649: Полю "Shop._shopTransform" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(6,43): warning CS0649: Полю "CharacterUpgrade._character1" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Camera\CameraFollow.cs(5,40): warning CS0649: Полю "CameraFollow._target" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(8,48): warning CS0649: Полю "CharacterUpgrade._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs(6,38): warning CS0649: Полю "SpawnerCrystals._crystalPrefab" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(6,35): warning CS0649: Полю "UIControl._textCrystals" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(5,39): warning CS0649: Полю "CharacterMove._joystick" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(10,40): warning CS0649: Полю "UIControl._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(7,41): warning CS0649: Полю "CharacterUpgrade._character2" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(6,40): warning CS0649: Полю "Character._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(9,45): warning CS0649: Полю "CharacterUpgrade._particleUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs(7,40): warning CS0649: Полю "SpawnerCrystals._character" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(5,43): warning CS0649: Полю "CharacterUpgrade._character1" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs(7,40): warning CS0649: Полю "Shop._shopTransform" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(8,45): warning CS0649: Полю "CharacterUpgrade._particleUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs(9,46): warning CS0649: Полю "Shop._spawnerCrystals" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(6,40): warning CS0649: Полю "CharacterMove._rigidbody" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(7,48): warning CS0649: Полю "CharacterMove._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(7,35): warning CS0649: Полю "UIControl._textMony" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(7,47): warning CS0649: Полю "Character._characterUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Camera\CameraFollow.cs(5,40): warning CS0649: Полю "CameraFollow._target" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline
-\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs(9,39): warning CS0649: Полю "CharacterAnimator._animatorCharacter2" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(6,35): warning CS0649: Полю "UIControl._textCrystals" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(6,40): warning CS0649: Полю "CharacterMove._rigidbody" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(7,48): warning CS0649: Полю "CharacterUpgrade._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs(8,39): warning CS0649: Полю "CharacterAnimator._animatorCharacter1" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(9,40): warning CS0649: Полю "UIControl._character" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(10,40): warning CS0649: Полю "UIControl._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs(6,38): warning CS0649: Полю "SpawnerCrystals._crystalPrefab" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(6,41): warning CS0649: Полю "CharacterUpgrade._character2" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(5,39): warning CS0649: Полю "CharacterMove._joystick" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(6,40): warning CS0649: Полю "Character._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs(8,39): warning CS0649: Полю "CharacterAnimator._animatorCharacter1" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
+
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
-
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
 
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
 
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
-
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
-  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+  Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
 
   Копирование файла из "D:\Luna\PA\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" в "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
 
@@ -188,7 +190,6 @@ BridgeNetCompilerTask:
   Bridge started
 
       To enable detailed logging, configure "logging" in bridge.json.
-
       https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
 
   Bridge done
@@ -202,33 +203,34 @@ BridgeNetCompilerTask:
 
 "D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (целевой объект Rebuild ) (1) ->
 (Целевой объект CoreCompile) -> 
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(7,48): warning CS0649: Полю "CharacterMove._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs(7,40): warning CS0649: Полю "SpawnerCrystals._character" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(5,43): warning CS0649: Полю "CharacterUpgrade._character1" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs(7,40): warning CS0649: Полю "Shop._shopTransform" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(8,45): warning CS0649: Полю "CharacterUpgrade._particleUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs(9,46): warning CS0649: Полю "Shop._spawnerCrystals" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(7,35): warning CS0649: Полю "UIControl._textMony" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(7,47): warning CS0649: Полю "Character._characterUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Camera\CameraFollow.cs(5,40): warning CS0649: Полю "CameraFollow._target" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs(9,39): warning CS0649: Полю "CharacterAnimator._animatorCharacter2" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(6,35): warning CS0649: Полю "UIControl._textCrystals" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(6,40): warning CS0649: Полю "CharacterMove._rigidbody" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(7,48): warning CS0649: Полю "CharacterUpgrade._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(9,40): warning CS0649: Полю "UIControl._character" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(10,40): warning CS0649: Полю "UIControl._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(7,47): warning CS0649: Полю "Character._characterUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Shop\Shop.cs(7,40): warning CS0649: Полю "Shop._shopTransform" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(6,43): warning CS0649: Полю "CharacterUpgrade._character1" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Camera\CameraFollow.cs(5,40): warning CS0649: Полю "CameraFollow._target" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(8,48): warning CS0649: Полю "CharacterUpgrade._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs(6,38): warning CS0649: Полю "SpawnerCrystals._crystalPrefab" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(6,41): warning CS0649: Полю "CharacterUpgrade._character2" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(6,35): warning CS0649: Полю "UIControl._textCrystals" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(5,39): warning CS0649: Полю "CharacterMove._joystick" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(6,40): warning CS0649: Полю "Character._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(10,40): warning CS0649: Полю "UIControl._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(7,41): warning CS0649: Полю "CharacterUpgrade._character2" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\Character.cs(6,40): warning CS0649: Полю "Character._inventory" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeli
+ne\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterUpgrade.cs(9,45): warning CS0649: Полю "CharacterUpgrade._particleUpgrade" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\SpawnerCrystals.cs(7,40): warning CS0649: Полю "SpawnerCrystals._character" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(6,40): warning CS0649: Полю "CharacterMove._rigidbody" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterMove.cs(7,48): warning CS0649: Полю "CharacterMove._characterAnimator" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(7,35): warning CS0649: Полю "UIControl._textMony" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\Character\CharacterAnimator.cs(8,39): warning CS0649: Полю "CharacterAnimator._animatorCharacter1" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\UnityPri\Crystals\LunaTemp\stage3\processed-scripts\Assets\Scripts\UI\UIControl.cs(9,40): warning CS0649: Полю "UIControl._character" нигде не присваивается значение, поэтому оно всегда будет иметь значение по умолчанию null. [D:\Luna\PA\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
     Предупреждений: 20
     Ошибок: 0
 
 
-Прошло времени 00:00:22.97
+Прошло времени 00:00:31.12
 
 Source code compiled successfully!
 ﻿
@@ -236,13 +238,13 @@ Source code compiled successfully!
 PHC: LP error code not found in JSON: 3015, JSON file might be outdated. Error message: Sequence contains no matching element
 
 Diagnostics gathered successfully
-report@code:build 90851.57
-report@diagnostics:verify 0.91
-report@diagnostics:upload 2021.42
-report@code:stage 17760.96
+report@code:build 49092.76
+report@diagnostics:verify 1.69
+report@diagnostics:upload 2512.68
+report@code:stage 26623.46
 [ Stage3 ] Code compiled and bundled successfully.
-report@code:bundle 111602.34
-report@package:stage 4027.73
+report@code:bundle 79132.04
+report@package:stage 3492.44
 [ Stage4 ] Target platform: develop
 [ Stage4 ] Package bundled successfully
-report@assets:stats 0.42
+report@assets:stats 0.77

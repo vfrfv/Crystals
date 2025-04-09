@@ -40,6 +40,10 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
 
     private Vector2 input = Vector2.zero;
 
+
+    private bool isDragging = false;
+
+
     protected virtual void Start()
     {
         HandleRange = handleRange;
@@ -59,6 +63,9 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
+
+        isDragging = true;
+
         OnDrag(eventData);
     }
 
@@ -75,6 +82,27 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
         HandleInput(input.magnitude, input.normalized, radius, cam);
         handle.anchoredPosition = input * radius * handleRange;
     }
+
+    public virtual void OnPointerUp(PointerEventData eventData)
+    {
+        input = Vector2.zero;
+        handle.anchoredPosition = Vector2.zero;
+
+        isDragging = false;
+
+    }
+
+
+    private void Update()
+    {
+        // Принудительный сброс при отпускании мыши/пальца
+        if ((Input.touchCount == 0 && !Input.GetMouseButton(0)) && isDragging)
+        {
+            isDragging = false;
+            OnPointerUp(null);
+        }
+    }
+
 
     protected virtual void HandleInput(float magnitude, Vector2 normalised, Vector2 radius, Camera cam)
     {
@@ -127,12 +155,6 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
                 return -1;
         }
         return 0;
-    }
-
-    public virtual void OnPointerUp(PointerEventData eventData)
-    {
-        input = Vector2.zero;
-        handle.anchoredPosition = Vector2.zero;
     }
 
     protected Vector2 ScreenPointToAnchoredPosition(Vector2 screenPosition)

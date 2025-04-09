@@ -1,0 +1,182 @@
+{
+    "BuildID": "42229217-d35e-447e-926a-845111f37f30",
+    "Command": "project:deploy",
+    "ProjectID": "a238902c70ab72b4db35458fd8dd783e",
+    "ProjectStateHash": "38b98e166584f7015fd05f6adb359f82c7a64b8590e4c1627a829e175740f51e",
+    "StageCompletedAt": 2,
+    "EarliestFatalError": 0,
+    "StartTime": 1744220297923,
+    "EndTime": 1744220317315,
+    "PlaygroundUserID": 21453,
+    "OperatingSystem": "win32",
+    "TargetPlatform": "playground",
+    "UnityVersion": "2022.3.7f1",
+    "LunaVersion": "6.2.1",
+    "LogCount": 7,
+    "Logs": [
+        {
+            "LogID": "513bab69-e7ef-4000-ad1b-1eb22c92ea7b",
+            "Timestamp": 1744220305587,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 0
+        },
+        {
+            "LogID": "318b4199-53c7-483a-86c9-444ece138f6c",
+            "Timestamp": 1744220305587,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 2,
+            "ErrorCode": "LP1016",
+            "Description": "Extensive usage of ParticleSystem Component",
+            "Details": [
+                "There is extensive usage of the ParticleSystem component.\nExcessive usage of any component can be detrimental to performance on lower and in some cases higher end devices, consider reducing the amount the component is used.\nRecommended count: 10, current count 14."
+            ],
+            "DescriptionValues": [
+                "ParticleSystem"
+            ],
+            "DetailsValues": [
+                "ParticleSystem",
+                "10",
+                "14"
+            ],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 1
+        },
+        {
+            "LogID": "eff6f29f-96b3-4622-9c32-be55a03d90b4",
+            "Timestamp": 1744220305592,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 0,
+            "ErrorCode": "LP1015",
+            "Description": "This TMP version is not fully supported",
+            "Details": [
+                "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 2
+        },
+        {
+            "LogID": "aeb5bbe3-c4a3-492d-a198-319856513017",
+            "Timestamp": 1744220305592,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.7.5)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "FilePath": "D:/UnityPri/Crystals/Packages\\manifest.json",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 3
+        },
+        {
+            "LogID": "d9ce8ddf-3194-43d8-8ddb-1e2f9d79567e",
+            "Timestamp": 1744220305596,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 2,
+            "ErrorCode": "LP1010",
+            "Description": "Looks like a collider was scaled, this might affect performance.",
+            "Details": [
+                "Character",
+                "crystal_4",
+                "Earth",
+                "Edge",
+                "Edge (1)",
+                "Edge (2)",
+                "Shop",
+                "BlackSmithShop"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 8,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 4
+        },
+        {
+            "LogID": "ab907a3a-cbee-4084-a42f-fb658ae842db",
+            "Timestamp": 1744220305596,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 0,
+            "ErrorCode": "LP1034",
+            "Description": "65k mesh vertices limit exceeded for WebGL 1.0, which breaks the playable.",
+            "Details": [
+                "The vertices has exceeded 65k on a mesh, which is not supported on WebGL 1.0. Please reduce the vertices of the mesh on the: default GameObject"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "default"
+            ],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 5
+        },
+        {
+            "LogID": "b4ab2d03-bd60-4d2c-883d-2e5aa9e4c422",
+            "Timestamp": 1744220305596,
+            "Stage": 1,
+            "Severity": 0,
+            "ErrorType": 2,
+            "ErrorCode": "LP1000",
+            "Description": "Big mesh usage, this might significantly increase output files size.",
+            "Details": [
+                "Big mesh {0} used on {1} game object, this might significantly increase output files size and take too much memory"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "default",
+                "default"
+            ],
+            "LogCount": 1,
+            "FilePath": "",
+            "LinePosition": 0,
+            "ClassName": "",
+            "MemberName": "",
+            "Order": 6
+        }
+    ]
+}

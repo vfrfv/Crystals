@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class CharacterUpgrade : MonoBehaviour
@@ -18,5 +19,13 @@ public class CharacterUpgrade : MonoBehaviour
 
         _character2.gameObject.SetActive(true);
         _characterAnimator.ReplaceAnimator();
+
+        StartCoroutine(DistroiParticleUpgrade());
+    }
+
+    private IEnumerator DistroiParticleUpgrade()
+    {
+        yield return new WaitForSeconds(2);
+       _particleUpgrade.gameObject.SetActive(false);
     }
 }

@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["CameraFollow#init","CameraFollow#Awake","CameraFollow#LateUpdate","CameraFollow#UpdateFieldOfView","Character#Coins#get","Character#Inventory#get","Character#CharacterUpgrade#get","Character#Start","Character#OnTriggerEnter","Character#GetCoins","Character#RemoveCoins","CharacterAnimator#init","CharacterAnimator#init","CharacterAnimator#Start","CharacterAnimator#EnableMoveAnimation","CharacterAnimator#EnableIdleAnimation","CharacterAnimator#ReplaceAnimator","CharacterAnimator#SetAnimation","CharacterMove#init","CharacterMove#FixedUpdate","CharacterMove#RotateTowardsDirection","CharacterUpgrade#StartUpgrade","Crystal#init","Crystal#OnTriggerEnter","Crystal#ToTake","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","EpicToonFX.ETFXLightFade#init","EpicToonFX.ETFXLightFade#Start","EpicToonFX.ETFXLightFade#Update","Inventory#Crystals#get","Inventory#CurrentNumberCrystals#get","Inventory#MaxCountCrystals#get","Inventory#init","Inventory#Start","Inventory#GetCrystal","Inventory#ResetInventory","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","Shop#init","Shop#OnTriggerEnter","Shop#AnimateCrystals","Shop#TurnSpawner","SpawnerCrystals#init","SpawnerCrystals#Start","SpawnerCrystals#StopSpawn","SpawnerCrystals#SpawnCrystalsRoutine","SpawnerCrystals#SpawnCrystal","UIControl#OnEnable","UIControl#OnDisable","UIControl#ShoweMony","UIControl#ShoweCrustals","Workshop#init","Workshop#OnTriggerEnter","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["CameraFollow#init","CameraFollow#Awake","CameraFollow#LateUpdate","CameraFollow#UpdateFieldOfView","Character#Coins#get","Character#Inventory#get","Character#CharacterUpgrade#get","Character#Start","Character#OnTriggerEnter","Character#GetCoins","Character#RemoveCoins","CharacterAnimator#init","CharacterAnimator#init","CharacterAnimator#Start","CharacterAnimator#EnableMoveAnimation","CharacterAnimator#EnableIdleAnimation","CharacterAnimator#ReplaceAnimator","CharacterAnimator#SetAnimation","CharacterMove#init","CharacterMove#FixedUpdate","CharacterMove#RotateTowardsDirection","CharacterUpgrade#StartUpgrade","CharacterUpgrade#DistroiParticleUpgrade","Crystal#init","Crystal#OnTriggerEnter","Crystal#ToTake","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#OnPointerUp","Joystick#Update","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#ScreenPointToAnchoredPosition","EpicToonFX.ETFXLightFade#init","EpicToonFX.ETFXLightFade#Start","EpicToonFX.ETFXLightFade#Update","Inventory#Crystals#get","Inventory#CurrentNumberCrystals#get","Inventory#MaxCountCrystals#get","Inventory#init","Inventory#Start","Inventory#GetCrystal","Inventory#ResetInventory","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","Shop#init","Shop#OnTriggerEnter","Shop#AnimateCrystals","Shop#TurnSpawner","SpawnerCrystals#init","SpawnerCrystals#Start","SpawnerCrystals#StopSpawn","SpawnerCrystals#SpawnCrystalsRoutine","SpawnerCrystals#SpawnCrystal","UIControl#OnEnable","UIControl#OnDisable","UIControl#ShoweMony","UIControl#ShoweCrustals","Workshop#init","Workshop#OnTriggerEnter","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput"]' ) ); }
 /**
- * @version 1.0.9230.33808
+ * @version 1.0.9230.37045
  * @copyright anton
  * @compiler Bridge.NET 17.9.42-luna
  */
@@ -332,8 +332,46 @@ if ( TRACE ) { TRACE( "CharacterUpgrade#StartUpgrade", this ); }
 
                 this._character2.gameObject.SetActive(true);
                 this._characterAnimator.ReplaceAnimator();
+
+                this.StartCoroutine$1(this.DistroiParticleUpgrade());
             },
             /*CharacterUpgrade.StartUpgrade end.*/
+
+            /*CharacterUpgrade.DistroiParticleUpgrade start.*/
+            DistroiParticleUpgrade: function () {
+if ( TRACE ) { TRACE( "CharacterUpgrade#DistroiParticleUpgrade", this ); }
+
+                var $step = 0,
+                    $jumpFromFinally,
+                    $returnValue,
+                    $async_e;
+
+                var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
+                    try {
+                        for (;;) {
+                            switch ($step) {
+                                case 0: {
+                                    $enumerator.current = new UnityEngine.WaitForSeconds(2);
+                                        $step = 1;
+                                        return true;
+                                }
+                                case 1: {
+                                    this._particleUpgrade.gameObject.SetActive(false);
+
+                                }
+                                default: {
+                                    return false;
+                                }
+                            }
+                        }
+                    } catch($async_e1) {
+                        $async_e = System.Exception.create($async_e1);
+                        throw $async_e;
+                    }
+                }));
+                return $enumerator;
+            },
+            /*CharacterUpgrade.DistroiParticleUpgrade end.*/
 
 
         }
@@ -393,7 +431,8 @@ if ( TRACE ) { TRACE( "Crystal#ToTake", this ); }
             baseRect: null,
             canvas: null,
             cam: null,
-            input: null
+            input: null,
+            isDragging: false
         },
         props: {
             Horizontal: {
@@ -494,6 +533,7 @@ if ( TRACE ) { TRACE( "Joystick#init", this ); }
                 this.snapX = false;
                 this.snapY = false;
                 this.input = pc.Vec2.ZERO.clone();
+                this.isDragging = false;
             }
         },
         methods: {
@@ -522,6 +562,9 @@ if ( TRACE ) { TRACE( "Joystick#Start", this ); }
             OnPointerDown: function (eventData) {
 if ( TRACE ) { TRACE( "Joystick#OnPointerDown", this ); }
 
+
+                this.isDragging = true;
+
                 this.OnDrag(eventData);
             },
             /*Joystick.OnPointerDown end.*/
@@ -543,6 +586,30 @@ if ( TRACE ) { TRACE( "Joystick#OnDrag", this ); }
                 this.handle$1.anchoredPosition = this.input.$clone().mul( radius ).scale( this.handleRange );
             },
             /*Joystick.OnDrag end.*/
+
+            /*Joystick.OnPointerUp start.*/
+            OnPointerUp: function (eventData) {
+if ( TRACE ) { TRACE( "Joystick#OnPointerUp", this ); }
+
+                this.input = pc.Vec2.ZERO.clone();
+                this.handle$1.anchoredPosition = pc.Vec2.ZERO.clone();
+
+                this.isDragging = false;
+
+            },
+            /*Joystick.OnPointerUp end.*/
+
+            /*Joystick.Update start.*/
+            Update: function () {
+if ( TRACE ) { TRACE( "Joystick#Update", this ); }
+
+                // Принудительный сброс при отпускании мыши/пальца
+                if ((UnityEngine.Input.touchCount === 0 && !UnityEngine.Input.GetMouseButton(0)) && this.isDragging) {
+                    this.isDragging = false;
+                    this.OnPointerUp(null);
+                }
+            },
+            /*Joystick.Update end.*/
 
             /*Joystick.HandleInput start.*/
             HandleInput: function (magnitude, normalised, radius, cam) {
@@ -607,15 +674,6 @@ if ( TRACE ) { TRACE( "Joystick#SnapFloat", this ); }
                 return 0;
             },
             /*Joystick.SnapFloat end.*/
-
-            /*Joystick.OnPointerUp start.*/
-            OnPointerUp: function (eventData) {
-if ( TRACE ) { TRACE( "Joystick#OnPointerUp", this ); }
-
-                this.input = pc.Vec2.ZERO.clone();
-                this.handle$1.anchoredPosition = pc.Vec2.ZERO.clone();
-            },
-            /*Joystick.OnPointerUp end.*/
 
             /*Joystick.ScreenPointToAnchoredPosition start.*/
             ScreenPointToAnchoredPosition: function (screenPosition) {
@@ -1090,7 +1148,9 @@ if ( TRACE ) { TRACE( "Shop#TurnSpawner", this ); }
             _character: null,
             _spawnRadius: 0,
             _spawnInterval: 0,
-            _isSpawning: false
+            _isSpawning: false,
+            _maxCrysralsSpawn: 0,
+            _currentCountCrystals: 0
         },
         ctors: {
             init: function () {
@@ -1099,6 +1159,8 @@ if ( TRACE ) { TRACE( "SpawnerCrystals#init", this ); }
                 this._spawnRadius = 10.0;
                 this._spawnInterval = 1.0;
                 this._isSpawning = true;
+                this._maxCrysralsSpawn = 30;
+                this._currentCountCrystals = 0;
             }
         },
         methods: {
@@ -1132,7 +1194,7 @@ if ( TRACE ) { TRACE( "SpawnerCrystals#SpawnCrystalsRoutine", this ); }
                         for (;;) {
                             switch ($step) {
                                 case 0: {
-                                    if ( this._isSpawning ) {
+                                    if ( this._isSpawning && this._currentCountCrystals < this._maxCrysralsSpawn ) {
                                             $step = 1;
                                             continue;
                                         } 
@@ -1141,6 +1203,8 @@ if ( TRACE ) { TRACE( "SpawnerCrystals#SpawnCrystalsRoutine", this ); }
                                 }
                                 case 1: {
                                     this.SpawnCrystal();
+                                        this._currentCountCrystals = (this._currentCountCrystals + 1) | 0;
+
                                         $enumerator.current = new UnityEngine.WaitForSeconds(this._spawnInterval);
                                         $step = 2;
                                         return true;
@@ -1151,6 +1215,7 @@ if ( TRACE ) { TRACE( "SpawnerCrystals#SpawnCrystalsRoutine", this ); }
                                         continue;
                                 }
                                 case 3: {
+                                    this._isSpawning = false;
 
                                 }
                                 default: {
@@ -1498,7 +1563,7 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
 
     if ( MODULE_reflection ) {
     var $m = Bridge.setMetadata,
-        $n = ["System","UnityEngine","UnityEngine.UI","UnityEngine.EventSystems","System.Collections.Generic","System.Collections"];
+        $n = ["System","UnityEngine","UnityEngine.UI","UnityEngine.EventSystems","System.Collections","System.Collections.Generic"];
 
     /*JoystickPlayerExample start.*/
     $m("JoystickPlayerExample", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":2,"n":"rb","t":4,"rt":$n[1].Rigidbody,"sn":"rb"},{"a":2,"n":"speed","t":4,"rt":$n[0].Single,"sn":"speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"variableJoystick","t":4,"rt":VariableJoystick,"sn":"variableJoystick"}]}; }, $n);
@@ -1509,7 +1574,7 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*JoystickSetterExample end.*/
 
     /*Joystick start.*/
-    $m("Joystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FormatInput","t":8,"sn":"FormatInput","rt":$n[0].Void},{"v":true,"a":3,"n":"HandleInput","t":8,"pi":[{"n":"magnitude","pt":$n[0].Single,"ps":0},{"n":"normalised","pt":$n[1].Vector2,"ps":1},{"n":"radius","pt":$n[1].Vector2,"ps":2},{"n":"cam","pt":$n[1].Camera,"ps":3}],"sn":"HandleInput","rt":$n[0].Void,"p":[$n[0].Single,$n[1].Vector2,$n[1].Vector2,$n[1].Camera]},{"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[0].Void,"p":[$n[3].PointerEventData]},{"v":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[0].Void,"p":[$n[3].PointerEventData]},{"v":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[0].Void,"p":[$n[3].PointerEventData]},{"a":3,"n":"ScreenPointToAnchoredPosition","t":8,"pi":[{"n":"screenPosition","pt":$n[1].Vector2,"ps":0}],"sn":"ScreenPointToAnchoredPosition","rt":$n[1].Vector2,"p":[$n[1].Vector2]},{"a":1,"n":"SnapFloat","t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0},{"n":"snapAxis","pt":AxisOptions,"ps":1}],"sn":"SnapFloat","rt":$n[0].Single,"p":[$n[0].Single,AxisOptions],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"AxisOptions","t":16,"rt":AxisOptions,"g":{"a":2,"n":"get_AxisOptions","t":8,"rt":AxisOptions,"fg":"AxisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},"s":{"a":2,"n":"set_AxisOptions","t":8,"p":[AxisOptions],"rt":$n[0].Void,"fs":"AxisOptions"},"fn":"AxisOptions"},{"a":2,"n":"DeadZone","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_DeadZone","t":8,"rt":$n[0].Single,"fg":"DeadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_DeadZone","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"DeadZone"},"fn":"DeadZone"},{"a":2,"n":"Direction","t":16,"rt":$n[1].Vector2,"g":{"a":2,"n":"get_Direction","t":8,"rt":$n[1].Vector2,"fg":"Direction"},"fn":"Direction"},{"a":2,"n":"HandleRange","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_HandleRange","t":8,"rt":$n[0].Single,"fg":"HandleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_HandleRange","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"HandleRange"},"fn":"HandleRange"},{"a":2,"n":"Horizontal","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Horizontal","t":8,"rt":$n[0].Single,"fg":"Horizontal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Horizontal"},{"a":2,"n":"SnapX","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_SnapX","t":8,"rt":$n[0].Boolean,"fg":"SnapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapX","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"SnapX"},"fn":"SnapX"},{"a":2,"n":"SnapY","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_SnapY","t":8,"rt":$n[0].Boolean,"fg":"SnapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapY","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"SnapY"},"fn":"SnapY"},{"a":2,"n":"Vertical","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Vertical","t":8,"rt":$n[0].Single,"fg":"Vertical","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Vertical"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"axisOptions","t":4,"rt":AxisOptions,"sn":"axisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"background","t":4,"rt":$n[1].RectTransform,"sn":"background"},{"a":1,"n":"baseRect","t":4,"rt":$n[1].RectTransform,"sn":"baseRect"},{"a":1,"n":"cam","t":4,"rt":$n[1].Camera,"sn":"cam"},{"a":1,"n":"canvas","t":4,"rt":$n[1].Canvas,"sn":"canvas"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"deadZone","t":4,"rt":$n[0].Single,"sn":"deadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"handle","t":4,"rt":$n[1].RectTransform,"sn":"handle$1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"handleRange","t":4,"rt":$n[0].Single,"sn":"handleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"input","t":4,"rt":$n[1].Vector2,"sn":"input"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapX","t":4,"rt":$n[0].Boolean,"sn":"snapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapY","t":4,"rt":$n[0].Boolean,"sn":"snapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Joystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FormatInput","t":8,"sn":"FormatInput","rt":$n[0].Void},{"v":true,"a":3,"n":"HandleInput","t":8,"pi":[{"n":"magnitude","pt":$n[0].Single,"ps":0},{"n":"normalised","pt":$n[1].Vector2,"ps":1},{"n":"radius","pt":$n[1].Vector2,"ps":2},{"n":"cam","pt":$n[1].Camera,"ps":3}],"sn":"HandleInput","rt":$n[0].Void,"p":[$n[0].Single,$n[1].Vector2,$n[1].Vector2,$n[1].Camera]},{"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[0].Void,"p":[$n[3].PointerEventData]},{"v":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[0].Void,"p":[$n[3].PointerEventData]},{"v":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[0].Void,"p":[$n[3].PointerEventData]},{"a":3,"n":"ScreenPointToAnchoredPosition","t":8,"pi":[{"n":"screenPosition","pt":$n[1].Vector2,"ps":0}],"sn":"ScreenPointToAnchoredPosition","rt":$n[1].Vector2,"p":[$n[1].Vector2]},{"a":1,"n":"SnapFloat","t":8,"pi":[{"n":"value","pt":$n[0].Single,"ps":0},{"n":"snapAxis","pt":AxisOptions,"ps":1}],"sn":"SnapFloat","rt":$n[0].Single,"p":[$n[0].Single,AxisOptions],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":2,"n":"AxisOptions","t":16,"rt":AxisOptions,"g":{"a":2,"n":"get_AxisOptions","t":8,"rt":AxisOptions,"fg":"AxisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},"s":{"a":2,"n":"set_AxisOptions","t":8,"p":[AxisOptions],"rt":$n[0].Void,"fs":"AxisOptions"},"fn":"AxisOptions"},{"a":2,"n":"DeadZone","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_DeadZone","t":8,"rt":$n[0].Single,"fg":"DeadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_DeadZone","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"DeadZone"},"fn":"DeadZone"},{"a":2,"n":"Direction","t":16,"rt":$n[1].Vector2,"g":{"a":2,"n":"get_Direction","t":8,"rt":$n[1].Vector2,"fg":"Direction"},"fn":"Direction"},{"a":2,"n":"HandleRange","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_HandleRange","t":8,"rt":$n[0].Single,"fg":"HandleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_HandleRange","t":8,"p":[$n[0].Single],"rt":$n[0].Void,"fs":"HandleRange"},"fn":"HandleRange"},{"a":2,"n":"Horizontal","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Horizontal","t":8,"rt":$n[0].Single,"fg":"Horizontal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Horizontal"},{"a":2,"n":"SnapX","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_SnapX","t":8,"rt":$n[0].Boolean,"fg":"SnapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapX","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"SnapX"},"fn":"SnapX"},{"a":2,"n":"SnapY","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_SnapY","t":8,"rt":$n[0].Boolean,"fg":"SnapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapY","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"SnapY"},"fn":"SnapY"},{"a":2,"n":"Vertical","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_Vertical","t":8,"rt":$n[0].Single,"fg":"Vertical","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Vertical"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"axisOptions","t":4,"rt":AxisOptions,"sn":"axisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"background","t":4,"rt":$n[1].RectTransform,"sn":"background"},{"a":1,"n":"baseRect","t":4,"rt":$n[1].RectTransform,"sn":"baseRect"},{"a":1,"n":"cam","t":4,"rt":$n[1].Camera,"sn":"cam"},{"a":1,"n":"canvas","t":4,"rt":$n[1].Canvas,"sn":"canvas"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"deadZone","t":4,"rt":$n[0].Single,"sn":"deadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"handle","t":4,"rt":$n[1].RectTransform,"sn":"handle$1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"handleRange","t":4,"rt":$n[0].Single,"sn":"handleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"input","t":4,"rt":$n[1].Vector2,"sn":"input"},{"a":1,"n":"isDragging","t":4,"rt":$n[0].Boolean,"sn":"isDragging","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapX","t":4,"rt":$n[0].Boolean,"sn":"snapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapY","t":4,"rt":$n[0].Boolean,"sn":"snapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Joystick end.*/
 
     /*AxisOptions start.*/
@@ -1553,11 +1618,11 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*CharacterMove end.*/
 
     /*CharacterUpgrade start.*/
-    $m("CharacterUpgrade", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"StartUpgrade","t":8,"sn":"StartUpgrade","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_character1","t":4,"rt":System.Array.type(UnityEngine.GameObject),"sn":"_character1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_character2","t":4,"rt":$n[1].GameObject,"sn":"_character2"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_characterAnimator","t":4,"rt":CharacterAnimator,"sn":"_characterAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_particleUpgrade","t":4,"rt":$n[1].ParticleSystem,"sn":"_particleUpgrade"}]}; }, $n);
+    $m("CharacterUpgrade", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"DistroiParticleUpgrade","t":8,"sn":"DistroiParticleUpgrade","rt":$n[4].IEnumerator},{"a":2,"n":"StartUpgrade","t":8,"sn":"StartUpgrade","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_character1","t":4,"rt":System.Array.type(UnityEngine.GameObject),"sn":"_character1"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_character2","t":4,"rt":$n[1].GameObject,"sn":"_character2"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_characterAnimator","t":4,"rt":CharacterAnimator,"sn":"_characterAnimator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_particleUpgrade","t":4,"rt":$n[1].ParticleSystem,"sn":"_particleUpgrade"}]}; }, $n);
     /*CharacterUpgrade end.*/
 
     /*Inventory start.*/
-    $m("Inventory", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetCrystal","t":8,"pi":[{"n":"crystal","pt":Crystal,"ps":0}],"sn":"GetCrystal","rt":$n[0].Void,"p":[Crystal]},{"a":2,"n":"ResetInventory","t":8,"sn":"ResetInventory","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"Crystals","t":16,"rt":$n[4].List$1(Crystal),"g":{"a":2,"n":"get_Crystals","t":8,"rt":$n[4].List$1(Crystal),"fg":"Crystals"},"fn":"Crystals"},{"a":2,"n":"CurrentNumberCrystals","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_CurrentNumberCrystals","t":8,"rt":$n[0].Int32,"fg":"CurrentNumberCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"CurrentNumberCrystals"},{"a":2,"n":"MaxCountCrystals","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_MaxCountCrystals","t":8,"rt":$n[0].Int32,"fg":"MaxCountCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaxCountCrystals"},{"a":1,"n":"MaxCrystals","t":4,"rt":$n[0].Int32,"sn":"MaxCrystals","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_crystalHeight","t":4,"rt":$n[0].Single,"sn":"_crystalHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"_crystals","t":4,"rt":$n[4].List$1(Crystal),"sn":"_crystals"},{"a":1,"n":"_currentNumberCrystals","t":4,"rt":$n[0].Int32,"sn":"_currentNumberCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"AmountCrystalChanged","t":2,"ad":{"a":2,"n":"add_AmountCrystalChanged","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addAmountCrystalChanged","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_AmountCrystalChanged","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeAmountCrystalChanged","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Inventory", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetCrystal","t":8,"pi":[{"n":"crystal","pt":Crystal,"ps":0}],"sn":"GetCrystal","rt":$n[0].Void,"p":[Crystal]},{"a":2,"n":"ResetInventory","t":8,"sn":"ResetInventory","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"Crystals","t":16,"rt":$n[5].List$1(Crystal),"g":{"a":2,"n":"get_Crystals","t":8,"rt":$n[5].List$1(Crystal),"fg":"Crystals"},"fn":"Crystals"},{"a":2,"n":"CurrentNumberCrystals","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_CurrentNumberCrystals","t":8,"rt":$n[0].Int32,"fg":"CurrentNumberCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"CurrentNumberCrystals"},{"a":2,"n":"MaxCountCrystals","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_MaxCountCrystals","t":8,"rt":$n[0].Int32,"fg":"MaxCountCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaxCountCrystals"},{"a":1,"n":"MaxCrystals","t":4,"rt":$n[0].Int32,"sn":"MaxCrystals","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_crystalHeight","t":4,"rt":$n[0].Single,"sn":"_crystalHeight","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"_crystals","t":4,"rt":$n[5].List$1(Crystal),"sn":"_crystals"},{"a":1,"n":"_currentNumberCrystals","t":4,"rt":$n[0].Int32,"sn":"_currentNumberCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"AmountCrystalChanged","t":2,"ad":{"a":2,"n":"add_AmountCrystalChanged","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addAmountCrystalChanged","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_AmountCrystalChanged","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeAmountCrystalChanged","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Inventory end.*/
 
     /*Crystal start.*/
@@ -1569,11 +1634,11 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*Edge end.*/
 
     /*Shop start.*/
-    $m("Shop", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimateCrystals","t":8,"pi":[{"n":"crystals","pt":$n[4].List$1(Crystal),"ps":0}],"sn":"AnimateCrystals","rt":$n[5].IEnumerator,"p":[$n[4].List$1(Crystal)]},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"TurnSpawner","t":8,"sn":"TurnSpawner","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_animationSpeed","t":4,"rt":$n[0].Single,"sn":"_animationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"_character","t":4,"rt":Character,"sn":"_character"},{"a":1,"n":"_countCrystals","t":4,"rt":$n[0].Int32,"sn":"_countCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_crystalPrice","t":4,"rt":$n[0].Int32,"sn":"_crystalPrice","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_shopTransform","t":4,"rt":$n[1].Transform,"sn":"_shopTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_spawnerCrystals","t":4,"rt":SpawnerCrystals,"sn":"_spawnerCrystals"}]}; }, $n);
+    $m("Shop", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimateCrystals","t":8,"pi":[{"n":"crystals","pt":$n[5].List$1(Crystal),"ps":0}],"sn":"AnimateCrystals","rt":$n[4].IEnumerator,"p":[$n[5].List$1(Crystal)]},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"TurnSpawner","t":8,"sn":"TurnSpawner","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_animationSpeed","t":4,"rt":$n[0].Single,"sn":"_animationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"_character","t":4,"rt":Character,"sn":"_character"},{"a":1,"n":"_countCrystals","t":4,"rt":$n[0].Int32,"sn":"_countCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_crystalPrice","t":4,"rt":$n[0].Int32,"sn":"_crystalPrice","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_shopTransform","t":4,"rt":$n[1].Transform,"sn":"_shopTransform"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_spawnerCrystals","t":4,"rt":SpawnerCrystals,"sn":"_spawnerCrystals"}]}; }, $n);
     /*Shop end.*/
 
     /*SpawnerCrystals start.*/
-    $m("SpawnerCrystals", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"SpawnCrystal","t":8,"sn":"SpawnCrystal","rt":$n[0].Void},{"a":1,"n":"SpawnCrystalsRoutine","t":8,"sn":"SpawnCrystalsRoutine","rt":$n[5].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StopSpawn","t":8,"sn":"StopSpawn","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_character","t":4,"rt":Character,"sn":"_character"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_crystalPrefab","t":4,"rt":Crystal,"sn":"_crystalPrefab"},{"a":1,"n":"_isSpawning","t":4,"rt":$n[0].Boolean,"sn":"_isSpawning","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_spawnInterval","t":4,"rt":$n[0].Single,"sn":"_spawnInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_spawnRadius","t":4,"rt":$n[0].Single,"sn":"_spawnRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("SpawnerCrystals", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"SpawnCrystal","t":8,"sn":"SpawnCrystal","rt":$n[0].Void},{"a":1,"n":"SpawnCrystalsRoutine","t":8,"sn":"SpawnCrystalsRoutine","rt":$n[4].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"StopSpawn","t":8,"sn":"StopSpawn","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_character","t":4,"rt":Character,"sn":"_character"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_crystalPrefab","t":4,"rt":Crystal,"sn":"_crystalPrefab"},{"a":1,"n":"_currentCountCrystals","t":4,"rt":$n[0].Int32,"sn":"_currentCountCrystals","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_isSpawning","t":4,"rt":$n[0].Boolean,"sn":"_isSpawning","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"_maxCrysralsSpawn","t":4,"rt":$n[0].Int32,"sn":"_maxCrysralsSpawn","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_spawnInterval","t":4,"rt":$n[0].Single,"sn":"_spawnInterval","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"_spawnRadius","t":4,"rt":$n[0].Single,"sn":"_spawnRadius","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*SpawnerCrystals end.*/
 
     /*UIControl start.*/
