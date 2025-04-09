@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Character : MonoBehaviour
@@ -5,13 +6,18 @@ public class Character : MonoBehaviour
     [SerializeField] private Inventory _inventory;
     [SerializeField] private CharacterUpgrade _characterUpgrade;
 
-    private int _crystals;
     private int _coins;
 
-    public int Crystals => _crystals;
     public int Coins => _coins;
     public Inventory Inventory => _inventory;
     public CharacterUpgrade CharacterUpgrade => _characterUpgrade;
+
+    public event Action AmountMoneyChanged;
+
+    private void Start()
+    {
+        AmountMoneyChanged?.Invoke();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,23 +29,15 @@ public class Character : MonoBehaviour
         }
     }
 
-    public void GetCrystal()
-    {
-        _crystals++;
-    }
-
-    public void RemoveCrystal()
-    {
-        _crystals--;
-    }
-
     public void GetCoins(int coins)
     {
         _coins += coins;
+        AmountMoneyChanged?.Invoke();
     }
 
     public void RemoveCoins(int coins)
     {
         _coins -= coins;
+        AmountMoneyChanged?.Invoke();
     }
 }

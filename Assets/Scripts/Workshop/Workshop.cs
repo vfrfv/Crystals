@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Workshop : MonoBehaviour
 {
-    private readonly int PumpingPrice = 10;
+    private readonly int PumpingPrice = 100;
     private bool _isUpgrade = false;
 
     private void OnTriggerEnter(Collider other)
